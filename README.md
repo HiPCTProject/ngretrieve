@@ -10,7 +10,7 @@ Script to retrieve a crop based on annotations in a Neuroglancer state (either t
 Install all of them with:
 
 ```bash
-pip install cloud-volume[zarr] neuroglancer numpy
+pip install 'cloud-volume[zarr]' neuroglancer numpy
 ```
 
 ## Usage
