@@ -1,0 +1,7 @@
+[project]
+name = "ngretrieve"
+version = "0.1.0"
+description = "Retrieve a crop based on annotations in a Neuroglancer state"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ['cloud-volume[zarr]', 'neuroglancer', 'numpy']
